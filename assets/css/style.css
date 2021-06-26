@@ -1620,6 +1620,12 @@ section {
   background-color: #ef6603;
   color: #fff;
 }
+.formpage .container .form-control {
+  width: 60%;
+}
+.form-floating>.form-control, .form-floating>.form-select {
+  height: 35px;
+}
 
 
 
