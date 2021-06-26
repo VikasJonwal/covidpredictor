@@ -1601,3 +1601,28 @@ section {
   font-size: 75px;
   text-align: center;
 }
+.formpage .container {
+  border-radius: 125px;
+  padding: 15px;
+  margin-top: 2rem;
+  
+  
+}
+.formpage {
+  padding: 0px;
+  background-color: orange;
+}
+.formpage .container .row{
+  margin-top: 1rem;
+  
+}
+.formpage .container .btn:hover {
+  background-color: #ef6603;
+  color: #fff;
+}
+
+
+
+
+
+
