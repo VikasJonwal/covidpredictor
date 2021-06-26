@@ -1632,7 +1632,11 @@ section {
   display: block;
   margin: auto;
 }
-
+@media (max-width: 768px) {
+  .formpage .container {
+    border-radius: 5px;
+  }
+}
 
 
 
