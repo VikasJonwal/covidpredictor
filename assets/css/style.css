@@ -1579,7 +1579,7 @@ section {
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
-  display: inline-block;
+  display: block;
   padding: 12px 32px;
   border-radius: 5px;
   transition: 0.3s;
@@ -1589,7 +1589,8 @@ section {
   animation-delay: 0.8s;
   margin-top: 6px;
   border: 2px solid #ef6603;
-  margin-left: 550px;
+  margin: auto;
+  width: fit-content;
 }
 
 .services .prediction:hover {
@@ -1627,7 +1628,10 @@ section {
   height: 35px;
 }
 
-
+.formpage .container .btn{
+  display: block;
+  margin: auto;
+}
 
 
 
