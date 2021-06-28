@@ -1637,6 +1637,60 @@ section {
     border-radius: 5px;
   }
 }
+.negative .container h1 {
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  color: #18d26e;
 
+}
+
+.negative .container h4 {
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+  margin-top: 50px;
+
+}
+.negative .container h4::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #18d26e;
+  margin: 4px 10px;
+}
+.negative .container h6 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+}
+.positive .container h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  color: red;
+
+}
+.positive .container h4 {
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+  margin-top: 50px;
+
+}
+.positive .container h4::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: red;
+  margin: 4px 10px;
+
+}
+.positive .container h6 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  font-size: 20px;
+}
 
 
